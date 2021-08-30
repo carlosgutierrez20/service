@@ -1,0 +1,248 @@
+    html {
+        box-sizing: border-box;
+        font-size: 62.5%/*RESET para REMS - 62.5% = 10px de 16px*/
+        ;
+    }
+    
+    *,
+    *:before,
+    *:after {
+        box-sizing: inherit;
+    }
+    /**Globales**/
+    
+    body .form {
+        font-family: 'Lato', sans-serif;
+        font-size: 1.6rem;
+        line-height: 2;
+        background: url(../Images/fondo-horizontal-productos.jpg);
+    }
+    
+    .contenedor {
+        width: 95%;
+        max-width: 95rem;
+        margin: 0 auto;
+    }
+    
+    .form .cliente {
+        width: 125rem;
+        background-color: #FFFFFF;
+        margin-left: 4.5rem;
+    }
+    
+    .form .normal {
+        background-color: #FFFFFF;
+    }
+    
+    h1 {
+        font-size: 3.8rem;
+    }
+    
+    h2 {
+        font-size: 3.4rem;
+    }
+    
+    h3 {
+        font-size: 3rem;
+    }
+    
+    h4 {
+        font-size: 2.6rem;
+    }
+    
+    p {
+        text-align: justify;
+    }
+    
+    img {
+        width: 100%;
+    }
+    /*utilidades*/
+    
+    .seccion {
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+    
+    .fw-300 {
+        font-weight: 300;
+    }
+    
+    .centrar-texto {
+        text-align: center;
+    }
+    
+    .contenido-centrado {
+        max-width: 2000px;
+    }
+    /**botones**/
+    
+    .boton {
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 1.8rem;
+        padding: 1rem 3rem;
+        margin: 3rem auto;
+        border: none;
+        display: block;
+    }
+    
+    button:hover {
+        cursor: pointer;
+    }
+    
+    .boton-amarillo {
+        background-color: #e08709;
+    }
+    
+    .boton-verde {
+        background-color: #71b100;
+    }
+    /**Formulario**/
+    
+    form {
+        background-color: #fff;
+        padding: 1rem;
+    }
+    
+    fieldset {
+        margin-top: 2rem;
+    }
+    
+    form p {
+        font-size: 1.4rem;
+        color: #525050;
+    }
+    
+    legend {
+        font-size: 2.4rem;
+        color: #525050;
+    }
+    
+    .forma-contacto {
+        max-width: 40rem;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    label {
+        display: block;
+        font-weight: 700;
+        text-transform: uppercase;
+    }
+    
+    .normal label {
+        margin-left: 3rem;
+    }
+    
+    .normal input:not([type="submit"]),
+    textarea,
+    text {
+        margin-left: 3rem;
+        padding: 1rem;
+        width: 90%;
+        background-color: #e1e1e1;
+        margin-bottom: 2rem;
+        border: none;
+        border-radius: 1rem;
+    }
+    
+    .normal input[type="radio"] {
+        width: auto;
+        margin: 0;
+    }
+    
+    .cliente input:not([type="submit"]),
+    text,
+    select {
+        padding: 1rem;
+        width: 100%;
+        background-color: #e1e1e1;
+        margin-bottom: 2rem;
+        border: none;
+        border-radius: 1rem;
+    }
+    /**
+    .section-info {
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .section-info .sec-1 {
+        width: 48%;
+    }
+    
+    .section-info .sec-2 {
+        width: 48%;
+    }
+    /**
+    select {
+        -webkit-appearance: none;
+        appearance: none;
+    }
+    **/
+    
+    textarea {
+        height: 20rem;
+    }
+    
+    td {
+        border-radius: 1rem;
+    }
+    /* The Modal (background) */
+    
+    .cta {
+        background: #71b100;
+        color: white;
+        font-weight: 700;
+        text-decoration: none;
+        font-size: 1.8rem;
+        padding: 0.5rem 2.5rem;
+        margin: 3rem auto;
+        border: 1px solid;
+        display: inline-block;
+    }
+    
+    .modal-content {
+        opacity: 0;
+        visibility: hidden;
+        /* Hidden by default */
+        position: fixed;
+        /* Stay in place */
+        z-index: 1000;
+        /* Sit on top */
+        width: 100%;
+        height: 100vh;
+        top: 0;
+        left: 0;
+        background: rgba(0, 0, 0, 0.5);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .modal {
+        width: 100%;
+        height: 70%;
+        background: #fff;
+        position: relative;
+        transition: transform 1s;
+        transform: translateY(0%);
+    }
+    
+    .modal-close {
+        transform: translateY(-200%);
+    }
+    /*------------------------------------Formulario - Servicios--------------------------------------------------*/
+    
+    .btn-eliminar {
+        border-radius: 5px;
+        padding: 0px 5px;
+        background-color: #FA010A;
+        border: none;
+        margin-bottom: 17px;
+        color: #ffffff;
+        font-size: 40px;
+    }
